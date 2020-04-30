@@ -60,6 +60,7 @@ export const App = () => {
       <small>
         You are running this application in <b>{process.env.NODE_ENV}</b> mode.
       </small>
+      <p>Testing </p>
     </div>
   );
 };

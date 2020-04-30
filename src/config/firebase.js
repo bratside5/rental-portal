@@ -1,5 +1,3 @@
-import "firebase/auth";
-
 export const devConfig = {
   apiKey: "AIzaSyCFELCTHbwwIjxr70jjI5wjkh9gapwH1yE",
   authDomain: "property-portal-development.firebaseapp.com",
