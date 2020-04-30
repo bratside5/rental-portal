@@ -1,5 +1,6 @@
 {
   "projects": {
+    "default": "property-portal-development",
     "production": "property-portal-prod",
     "development": "property-portal-development"
   },
@@ -8,13 +9,6 @@
       "hosting": {
         "development": [
           "property-portal-development"
-        ]
-      }
-    },
-     "property-portal-prod": {
-      "hosting": {
-        "production": [
-          "property-portal-prod"
         ]
       }
     }
