@@ -1,26 +1,23 @@
-const config = require("config");
 import "firebase/auth";
-const Config = require("config-js");
-const config = new Config("./dev_conf.js");
 
 export const devConfig = {
-  apiKey: config.REACT_APP_FIREBASE_KEY_DEV,
-  authDomain: REACT_APP_FIREBASE_DOMAIN_DEV,
-  databaseURL: REACT_APP_FIREBASE_DATABASE_DEV,
-  projectId: REACT_APP_FIREBASE_PROJECT_ID_DEV,
-  storageBucket: REACT_APP_FIREBASE_STORAGE_BUCKET_DEV,
-  messagingSenderId: REACT_APP_FIREBASE_SENDER_ID_DEV,
-  appId: REACT_APP_FIREBASE_APP_ID_DEV,
-  measurementId: REACT_APP_FIREBASE_MEASUREMENT_ID_DEV,
+  apiKey: "AIzaSyCFELCTHbwwIjxr70jjI5wjkh9gapwH1yE",
+  authDomain: "property-portal-development.firebaseapp.com",
+  databaseURL: "https://property-portal-development.firebaseio.com",
+  projectId: "property-portal-development",
+  storageBucket: "property-portal-development.appspot.com",
+  messagingSenderId: "256506708080",
+  appId: "1:256506708080:web:01b781142ccf9c3eafb4b5",
+  measurementId: "G-QF4162J2BV",
 };
 
 export const prodConfig = {
-  apiKey: REACT_APP_FIREBASE_KEY,
-  authDomain: REACT_APP_FIREBASE_DOMAIN,
-  databaseURL: REACT_APP_FIREBASE_DATABASE,
-  projectId: REACT_APP_FIREBASE_PROJECT_ID,
-  storageBucket: REACT_APP_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: REACT_APP_FIREBASE_SENDER_ID,
-  appId: REACT_APP_FIREBASE_APP_ID,
-  measurementId: REACT_APP_FIREBASE_MEASUREMENT_ID,
+  apiKey: "AIzaSyD5HQ70_v2wJNzj2v2O9wzv971kst9YS1A",
+  authDomain: "property-portal-prod.firebaseapp.com",
+  databaseURL: "https://property-portal-prod.firebaseio.com",
+  projectId: "property-portal-prod",
+  storageBucket: "property-portal-prod.appspot.com",
+  messagingSenderId: "1061176274715",
+  appId: "1:1061176274715:web:5fb06d0d9ba0348c432dbe",
+  measurementId: "G-3V505S6Z48",
 };
