@@ -6,11 +6,11 @@ import * as serviceWorker from "./serviceWorker";
 import * as firebase from "firebase/app";
 import "firebase/auth";
 import { FirebaseAuthProvider } from "@react-firebase/auth";
-import config from "./config/firebase";
+import devConfig from "./config/firebase";
 
 ReactDOM.render(
   <React.StrictMode>
-    <FirebaseAuthProvider firebase={firebase} {...config}>
+    <FirebaseAuthProvider firebase={firebase} {...devConfig}>
       {<App />}
     </FirebaseAuthProvider>
   </React.StrictMode>,
