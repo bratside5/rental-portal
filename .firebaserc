@@ -1,6 +1,5 @@
 {
   "projects": {
-    "default": "property-portal-development",
     "production": "property-portal-prod",
     "development": "property-portal-development"
   },
