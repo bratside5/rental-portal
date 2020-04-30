@@ -2,10 +2,6 @@ const config = require("config");
 import "firebase/auth";
 const Config = require("config-js");
 const config = new Config("./dev_conf.js");
-assert.ok(
-  config.get("REACT_APP_FIREBASE_KEY_DEV") ===
-    "AIzaSyCFELCTHbwwIjxr70jjI5wjkh9gapwH1yE"
-);
 
 export const devConfig = {
   apiKey: config.REACT_APP_FIREBASE_KEY_DEV,
