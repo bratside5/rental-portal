@@ -8,9 +8,11 @@ on:
     branches: [master]
 
 jobs:
-  firebase-deploy:
+  firebase-test-and-stage:
     runs-on: ubuntu-latest
-
+    env:
+      NODE_ENV: test
+      REACT_APP_FIREBASE_KEY: { { secrets.REACT_APP_FIREBASE_KEY } }
     steps:
       - uses: actions/checkout@master
       - uses: actions/setup-node@master
