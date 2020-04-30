@@ -11,6 +11,13 @@
           "property-portal-development"
         ]
       }
+    },
+     "property-portal-prod": {
+      "hosting": {
+        "production": [
+          "property-portal-prod"
+        ]
+      }
     }
   }
 }
