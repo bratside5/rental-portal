@@ -6,7 +6,7 @@ import * as serviceWorker from "./serviceWorker";
 import * as firebase from "firebase/app";
 import "firebase/auth";
 import { FirebaseAuthProvider } from "@react-firebase/auth";
-import { devConfig, prodConfig } from "./config/firebase";
+import { devConfig } from "./config/firebase";
 
 ReactDOM.render(
   <React.StrictMode>
