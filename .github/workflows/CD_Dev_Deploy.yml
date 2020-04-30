@@ -12,6 +12,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Dotenv Action
+        uses: falti/dotenv-action@v0.2.4
+
       - uses: actions/checkout@master
       - uses: actions/setup-node@master
         with:

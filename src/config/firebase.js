@@ -1,14 +1,14 @@
 import "firebase/auth";
 
 const config = {
-  apiKey: "AIzaSyCFELCTHbwwIjxr70jjI5wjkh9gapwH1yE",
-  authDomain: "property-portal-development.firebaseapp.com",
-  databaseURL: "https://property-portal-development.firebaseio.com",
-  projectId: "property-portal-development",
-  storageBucket: "property-portal-development.appspot.com",
-  messagingSenderId: "256506708080",
-  appId: "1:256506708080:web:01b781142ccf9c3eafb4b5",
-  measurementId: "G-QF4162J2BV",
+  apiKey: REACT_APP_FIREBASE_KEY,
+  authDomain: REACT_APP_FIREBASE_DOMAIN,
+  databaseURL: REACT_APP_FIREBASE_DATABASE,
+  projectId: REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: REACT_APP_FIREBASE_SENDER_ID,
+  appId: REACT_APP_FIREBASE_APP_ID,
+  measurementId: REACT_APP_FIREBASE_MEASUREMENT_ID,
 };
 
 export default config;
