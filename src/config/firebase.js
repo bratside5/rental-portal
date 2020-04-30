@@ -1,6 +1,5 @@
 export const devConfig = {
-  // apiKey: "AIzaSyCFELCTHbwwIjxr70jjI5wjkh9gapwH1yE",
-  apiKey: REACT_APP_API,
+  apiKey: "AIzaSyCFELCTHbwwIjxr70jjI5wjkh9gapwH1yE",
   authDomain: "property-portal-development.firebaseapp.com",
   databaseURL: "https://property-portal-development.firebaseio.com",
   projectId: "property-portal-development",
