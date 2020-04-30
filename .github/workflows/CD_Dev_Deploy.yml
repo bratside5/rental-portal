@@ -19,10 +19,12 @@ jobs:
       - run: npm install
       - run: npm run test
       - run: npm run build
+        with:
+          env:
+            REACT_APP_FIREBASE_KEY: ${ { secrets.REACT_APP_FIREBASE_KEY } }
       - uses: w9jds/firebase-action@master
         with:
           args: deploy --only hosting
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
           PROJECT_ID: property-portal-development
-          REACT_APP_FIREBASE_KEY: ${ { secrets.REACT_APP_FIREBASE_KEY } }
