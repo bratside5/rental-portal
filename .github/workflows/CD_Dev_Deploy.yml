@@ -19,8 +19,8 @@ jobs:
       - run: npm install
       - run: npm run test
       - run: npm run build
-          env:
-            REACT_APP_FIREBASE_KEY: ${ { secrets.REACT_APP_FIREBASE_KEY } }
+      - uses:
+        env: REACT_APP_FIREBASE_KEY: ${ { secrets.REACT_APP_FIREBASE_KEY } }
       - uses: w9jds/firebase-action@master
         with:
           args: deploy --only hosting
