@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams, Router } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import HeroFPP from "./Hero_FeaturedPropertyPage";
 import Section1 from "./Section1_FeaturedPropertyPage";
 

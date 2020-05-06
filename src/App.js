@@ -6,14 +6,8 @@ import { FirebaseAuthProvider } from "@react-firebase/auth";
 import { devConfig, prodConfig } from "./config/firebase";
 import Header from "./components/navigation/Header";
 import Footer from "./components/footer/Footer";
-import { ContentWrapper } from "./components/tailwind_ui/lib";
 import FeaturedProperty from "./views/FeaturedProperty";
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  useLocation,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import FeaturedPropertyPage from "./components/featured-property/FeaturedPropertyPage";
 import BlogList from "./components/blog/BlogList";
 import BlogPage from "./components/blog/BlogPage";
