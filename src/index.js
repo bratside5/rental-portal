@@ -4,9 +4,17 @@ import "tailwindcss/dist/base.css";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+import { PropertyProvider } from "./context/PropertyContext";
+import { BlogProvider } from "./context/BlogContext";
 
 ReactDOM.render(
-  <React.StrictMode>{<App />}</React.StrictMode>,
+  <React.StrictMode>
+    <BlogProvider>
+      <PropertyProvider>
+        <App />
+      </PropertyProvider>
+    </BlogProvider>
+  </React.StrictMode>,
   document.getElementById("root")
 );
 
